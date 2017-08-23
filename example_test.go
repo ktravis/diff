@@ -9,7 +9,7 @@ import (
 
 func ExamplePatience() {
 	a := `
-	func Foo(a, b int) int {
+func Foo(a, b int) int {
 }
 type Bar struct {
 	A string
@@ -17,7 +17,7 @@ type Bar struct {
 }`
 
 	b := `
-	func Foo(a, b int) int {
+func Foo(a, b int) int {
 	return a + b
 }
 type Bar struct {
