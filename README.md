@@ -5,6 +5,8 @@ Go implementation of patience diff, LCS, and merge
 go get github.com/ktravis/diff
 ```
 
+---
+
 Patience diff was developed by Bram Cohen, see [here](http://alfedenzo.livejournal.com/170301.html) and
 [here](http://bramcohen.livejournal.com/73318.html) for explanations.
 The diffs produced are generally more human-readable, i.e.,
