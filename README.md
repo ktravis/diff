@@ -1,4 +1,4 @@
-# diff
+# diff [![GoDoc](https://godoc.org/github.com/gin-gonic/gin?status.svg)](https://godoc.org/github.com/gin-gonic/gin)
 Go implementation of patience diff, LCS, and merge
 
 ```shell
