@@ -74,8 +74,8 @@ func (t *LCSTable) recursiveLcs(i, j int) [][2]int {
 	return t.recursiveLcs(i-1, j)
 }
 
-// Diff returns a set of diff of the two sets of lines the LCSTable was created
-// with, as determined by the LCS.
+// Diff returns a diff of the two sets of lines the LCSTable was created with,
+// as determined by the LCS.
 func (t *LCSTable) Diff() []Item {
 	return t.recursiveDiff(len(t.a), len(t.b))
 }
